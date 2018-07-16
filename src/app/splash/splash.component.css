@@ -1,0 +1,10 @@
+.splash-container{
+    height:100vh;
+    background: blue;
+    /* margin-top: 0px; */
+    /* background-image: '../assets/bg1.jpg'; */
+}
+
+p{
+    margin-top:0;
+}
