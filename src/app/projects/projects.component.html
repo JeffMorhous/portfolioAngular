@@ -1,6 +1,6 @@
 <div class="grid-container">
   <h1 class="mat-h1">Projects</h1>
-  <mat-grid-list cols="2" rowHeight="350px">
+  <mat-grid-list cols="2">
     <mat-grid-tile *ngFor="let card of cards" [colspan]="card.cols" [rowspan]="card.rows">
       <mat-card class="dashboard-card">
         <mat-card-header>
@@ -14,9 +14,11 @@
             </mat-menu>
           </mat-card-title>
         </mat-card-header>
-        <img mat-card-image src=''>
+        <img mat-card-image src="{{card.image}}">
         <mat-card-content class="dashboard-card-content">
-          <div>Card Content Here</div>
+          <div>
+            <h3>{{card.date}}</h3>
+          </div>
         </mat-card-content>
       </mat-card>
     </mat-grid-tile>

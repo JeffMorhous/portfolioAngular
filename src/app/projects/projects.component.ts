@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   cards = [
-    { title: 'Angular Personal Portfolio', cols: 1, rows: 1},
-    { title: 'Stock Data Retrieval', cols: 1, rows: 1, image: '../assets/installing.png' },
-    { title: 'Static Personal Portfolio Site', cols: 2, rows: 1 },
-    { title: 'Fundamentals of Engineering Advanced Energy Vehicle', cols: 1, rows: 2 },
-    { title: 'Fundamentals of Engineering Software Design Project', cols: 1, rows: 2 }
+    { title: 'Stock Data Retrieval', cols: 1, rows: 1, image: '../assets/installing.png', date: 'July 2018' },
+    { title: 'Angular Personal Portfolio', cols: 1, rows: 1, image: '../assets/angularPortfolio.png', date: 'July 2018' },
+    { title: 'Fundamentals of Engineering Advanced Energy Vehicle', cols: 1, rows: 1, image: '../assets/AEV.jpg', date: 'Spring 2018' },
+    { title: 'Static Personal Portfolio Site', cols: 1, rows: 1, image: '../assets/staticPortfolio.png', date: 'December 2017' },
+    { title: 'Fundamentals of Engineering Software Design Project', cols: 1, rows: 1, image: '../assets/presentation.jpg', date: 'November 2017' }
   ];
 }
