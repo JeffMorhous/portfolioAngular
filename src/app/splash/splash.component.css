@@ -1,10 +1,20 @@
 .splash-container{
     height:100vh;
-    background: blue;
+    /* background: blue; */
     /* margin-top: 0px; */
-    /* background-image: '../assets/bg1.jpg'; */
+    background-image: url('../../assets/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
 }
 
-p{
+.text{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+h2{
     margin-top:0;
 }

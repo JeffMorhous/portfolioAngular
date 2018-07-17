@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   cards = [
-    { title: 'Card 1', cols: 2, rows: 1 },
-    { title: 'Card 2', cols: 1, rows: 1 },
-    { title: 'Card 3', cols: 1, rows: 2 },
-    { title: 'Card 4', cols: 1, rows: 1 }
+    { title: 'Angular Personal Portfolio', cols: 1, rows: 1},
+    { title: 'Stock Data Retrieval', cols: 1, rows: 1, image: '../assets/installing.png' },
+    { title: 'Static Personal Portfolio Site', cols: 2, rows: 1 },
+    { title: 'Fundamentals of Engineering Advanced Energy Vehicle', cols: 1, rows: 2 },
+    { title: 'Fundamentals of Engineering Software Design Project', cols: 1, rows: 2 }
   ];
 }
